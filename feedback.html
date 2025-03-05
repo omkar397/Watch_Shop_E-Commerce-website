@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css">
+<style>
+*{
+  padding:0;
+  margin:0;
+  box-sizing:content-box;
+}
+
+.form-container{
+height:610px;
+width:500px;
+
+
+}
+.form-container form{
+height:370px;
+width:190%;
+margin:auto;
+display:flex;
+flex-direction:column;
+background-image:conic-gradient(from -45deg,Pink,skyblue);
+padding:50px;
+text-transform:capitalize;
+border-radius:30px;
+color:#ffff;
+border:7px solid black;
+margin-top:45px;
+margin-bottom:10px;
+margin-left:100px;
+margin-right:10px;
+}
+.form-container form h3{
+text-align:center;
+font-size:2.5rem;
+color:black;
+}
+.form-container form label{
+font-size:1.3rem;
+padding:3px 0;
+
+}
+.form-container form input,textarea{
+padding:8px;
+border-radius:30px;
+margin:5px 0 5px 0;
+border:none;
+box-shadow:3px 3px 3px 3px rgba(0,0,0,3);
+text-transform:capitalize;
+font-size:1rem;
+}
+.form-container form input[type="button"]{
+align-self:flex-end;
+height:20px;
+width:70px;
+font-size:100%;
+}
+
+
+</style>
+</head>
+<body>
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/1.jpg" alt="">
+    </a>
+
+   <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="product.html">products</a>
+        <a href="galley.html">photo gallery</a>
+        <a href="contact.html">contact</a>
+        <a href="about.html">about</a>
+		<a href="feedback.html">Feedback</a>
+    </nav>
+	<div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+	</header><br><br><br><br><br>
+
+<div class="form-container">
+<form action="">
+ <h3>Give your feedback</h3>
+<label for="">name</label>
+<input type="text"placeholder="name"required>
+<label for="">e-mail</label>
+<input type="email"placeholder="e-mail"required>
+<label for="">mobile number</label>
+<input type="#"placeholder="mobile number"required>
+<label for="">your message/suggestion</label>
+<textarea name=""cols="20"rows="5"placeholder="your message"></textarea>
+<br>
+<input type="button"value="submit">
+</form>
+</div>
+</body>
+</html>

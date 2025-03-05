@@ -1,0 +1,73 @@
+<!DOCTYPE html
+<html>
+ <head>
+ <link rel="stylesheet" href="style.css">
+ <style>
+ img {
+            border-radius: 4px;
+            border: 3px solid white;
+			height:100px;
+			margin-right:1px;
+			margin-left:20px;
+			padding:2px;
+     }
+
+
+ .column {
+  margin-left:4px;
+  float: left;
+  width: 1110px;
+  padding:2px;
+  margin-right:1px;
+  margin-left:45px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+container {
+  position: relative;
+}
+
+ </style>
+ </head>
+ <body>
+ <header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/1.jpg" alt="">
+    </a>
+
+   <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="product.html">products</a>
+        <a href="galley.html">photo gallery</a>
+        <a href="contact.html">contact</a>
+        <a href="about.html">about</a>
+		<a href="feedback.html">Feedback</a>
+    </nav>
+	<div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+	</header>
+	<br><br><br><br><br><br><br><br><br><br><br>
+  <div class="row">
+  <div class="column">
+  <div class="container">
+  <img src="images/g1.PNG" style="width:530px;height:300px";>
+  <img src="images/g2.PNG" style="width:530px;height:300px";>
+  <br><br>
+  <img src="images/g3.PNG" style="width:530px;height:300px">
+   <img src="images/g4.PNG" style="width:530px;height:300px";>
+   <br><br>
+   <img src="images/g5.PNG" style="width:530px;height:300px";>
+   <img src="images/g6.jPG" style="width:530px;height:300px";>
+  </div>
+  </div>
+  </div>
+  </body>
+  </html>
